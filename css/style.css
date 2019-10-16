@@ -8615,6 +8615,9 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 /* global content*/
+/* ==========================================================================*/
+/* Global Element Styles*/
+/* ==========================================================================*/
 /* autoprefixer grid: autoplace */
 html, body {
   min-height: 100%;
@@ -8625,8 +8628,55 @@ html {
 }
 
 section {
-  min-height: 100vh;
   background-color: rgba(86, 61, 124, 0.15);
 }
 
 /* pages or sections*/
+.gridContainer {
+  margin: 0 auto 4em auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 200px 150px 150px 150px;
+  grid-template-columns: 200px 150px 150px 150px;
+  -ms-grid-rows: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+  grid-template-rows: repeat(10, 50px);
+  /*grid-row-gap: 4px;*/
+}
+.gridContainer .round {
+  -ms-grid-column: 1;
+  grid-column-start: 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: 2;
+  margin: 17px 0 17px 0;
+  text-align: right;
+  padding-right: 10px;
+  font-size: 16px;
+  line-height: 16px;
+}
+.gridContainer .rating {
+  -ms-grid-column: 2;
+  grid-column-start: 2;
+  -ms-grid-column-span: 1;
+  grid-column-end: 3;
+  margin: auto 0;
+}
+.gridContainer .slope {
+  -ms-grid-column: 3;
+  grid-column-start: 3;
+  -ms-grid-column-span: 1;
+  grid-column-end: 4;
+  margin: auto 0;
+}
+.gridContainer .score {
+  -ms-grid-column: 4;
+  grid-column-start: 4;
+  -ms-grid-column-span: 1;
+  grid-column-end: 5;
+  margin: auto 0;
+}
+.gridContainer .row1 {
+  -ms-grid-row: 1;
+}
+.gridContainer input {
+  max-width: 80px;
+}
