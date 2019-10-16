@@ -1,0 +1,16 @@
+// ==========================================================================
+// Global Element Styles
+// ==========================================================================
+
+/* autoprefixer grid: autoplace */
+
+html, body {
+	min-height: 100%;
+}
+html {
+	background-color: rgba(86,61,124,.05);
+}
+section {
+	min-height: 100vh;
+	background-color: rgba(86,61,124,.15);
+}

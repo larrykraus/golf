@@ -1,0 +1,16 @@
+// Sass Template
+// @version 1.0
+
+// settings
+@import "settings/variables";
+@import "settings/mixins";
+@import "settings/fonts";
+
+// frameworks
+@import "frameworks/bootstrap";
+
+// global content
+@import "partials/global";
+
+// pages or sections
+@import "partials/home";
