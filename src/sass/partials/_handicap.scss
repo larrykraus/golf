@@ -39,7 +39,7 @@
 		grid-column-end: 5;
 		margin: auto 0;
 	}
-	.calcButton {
+	.calcButtonDiv {
 		-ms-grid-row: 6;
 		-ms-grid-column: 1;
 		-ms-grid-column-span: 3;
@@ -55,4 +55,9 @@
 	input {
 		max-width: 80px;
 	}
+	input[type="number"]::-webkit-outer-spin-button,
+	input[type="number"]::-webkit-inner-spin-button {
+    	-webkit-appearance: none;
+   		margin: 0;
+	}	
 }

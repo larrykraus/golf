@@ -8674,7 +8674,7 @@ section {
   grid-column-end: 5;
   margin: auto 0;
 }
-.gridContainer .calcButton {
+.gridContainer .calcButtonDiv {
   -ms-grid-row: 6;
   -ms-grid-column: 1;
   -ms-grid-column-span: 3;
@@ -8689,4 +8689,9 @@ section {
 }
 .gridContainer input {
   max-width: 80px;
+}
+.gridContainer input[type="number"]::-webkit-outer-spin-button,
+.gridContainer input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }

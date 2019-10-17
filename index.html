@@ -17,6 +17,8 @@
 	<!-- <meta property="og:image" content="http://www.example.com/apple-touch-icon.png"> -->
 	<meta property="og:type" content="website">
 	<meta property="og:locale" content="en_us">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<!--[if IE]>
 		<script type="text/javascript">
 			var console = { log: function() {} };
@@ -46,27 +48,27 @@
 					<div class="slope row0">Course Slope Rating</div>
 					<div class="score row0">Your Score</div>				
 					<div class="round row1">Round #1</div>
-					<div class="rating row1"><input type="text" name="a1"></div>
-					<div class="slope row1"><input type="text" name="b1"></div>
-					<div class="score row1"><input type="text" name="c1"></div>	
+					<div class="rating row1"><input type="number" name="a1" id="a1"></div>
+					<div class="slope row1"><input type="number" name="b1" id="b1"></div>
+					<div class="score row1"><input type="number" name="c1" id="c1"></div>	
 					<div class="round row2">Round #2</div>
-					<div class="rating row2"><input type="text" name="a2"></div>
-					<div class="slope row2"><input type="text" name="b2"></div>
-					<div class="score row2"><input type="text" name="c2"></div>	
+					<div class="rating row2"><input type="number" name="a2" id="a2"></div>
+					<div class="slope row2"><input type="number" name="b2" id="b2"></div>
+					<div class="score row2"><input type="number" name="c2" id="c2"></div>	
 					<div class="round row3">Round #3</div>
-					<div class="rating row3"><input type="text" name="a3"></div>
-					<div class="slope row3"><input type="text" name="b3"></div>
-					<div class="score row3"><input type="text" name="c3"></div>	
+					<div class="rating row3"><input type="number" name="a3" id="a3"></div>
+					<div class="slope row3"><input type="number" name="b3" id="b3"></div>
+					<div class="score row3"><input type="number" name="c3" id="c3"></div>	
 					<div class="round row4">Round #4</div>
-					<div class="rating row4"><input type="text" name="a4"></div>
-					<div class="slope row4"><input type="text" name="b4"></div>
-					<div class="score row4"><input type="text" name="c4"></div>	
+					<div class="rating row4"><input type="number" name="a4" id="a4"></div>
+					<div class="slope row4"><input type="number" name="b4" id="b4"></div>
+					<div class="score row4"><input type="number" name="c4" id="c4"></div>	
 					<div class="round row5">Round #5</div>
-					<div class="rating row5"><input type="text" name="a5"></div>
-					<div class="slope row5"><input type="text" name="b5"></div>
-					<div class="score row5"><input type="text" name="c5"></div>
-					<div class="row6 calcButton">
-	        			<a class="btn btn-primary" href="#" role="button">Calculate Handicap</a>
+					<div class="rating row5"><input type="number" name="a5" id="a5"></div>
+					<div class="slope row5"><input type="number" name="b5" id="b5"></div>
+					<div class="score row5"><input type="number" name="c5" id="c5"></div>
+					<div class="row6 calcButtonDiv">
+	        			<a class="btn btn-primary calcButton" href="#" role="button">Calculate Handicap</a>
 	        		</div>																
 				</div>
 			</div>
