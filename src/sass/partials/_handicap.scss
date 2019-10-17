@@ -2,10 +2,10 @@
 	margin: 0 auto 4em auto;
 	display: -ms-grid;
 	display: grid;
-	-ms-grid-columns: 200px 150px 150px 150px;
-	grid-template-columns: 200px 150px 150px 150px;
-	-ms-grid-rows: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
-	grid-template-rows: repeat(10, 50px);
+	-ms-grid-columns: 150px 150px 150px 150px;
+	grid-template-columns: 150px 150px 150px 150px;
+	-ms-grid-rows: 50px 50px 50px 50px 50px 50px 50px;
+	grid-template-rows: repeat(7, 50px);
 	/*grid-row-gap: 4px;*/
 	.round {
 		-ms-grid-column: 1;
@@ -38,6 +38,16 @@
 		-ms-grid-column-span: 1;
 		grid-column-end: 5;
 		margin: auto 0;
+	}
+	.calcButton {
+		-ms-grid-row: 6;
+		-ms-grid-column: 1;
+		-ms-grid-column-span: 3;
+		-ms-grid-row-span: 1;
+		grid-area: 7 / 1 / 7 / 5;
+	}
+	.row0 {
+		font-weight: bold;
 	}	
 	.row1 {
 		-ms-grid-row: 1;
