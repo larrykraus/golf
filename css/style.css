@@ -8628,7 +8628,8 @@ html {
 }
 
 section {
-  background-color: rgba(86, 61, 124, 0.15);
+  min-height: 100vh;
+  background-color: #56b35a;
 }
 
 /* pages or sections*/
@@ -8638,8 +8639,8 @@ section {
   display: grid;
   -ms-grid-columns: 150px 150px 150px 150px;
   grid-template-columns: 150px 150px 150px 150px;
-  -ms-grid-rows: 50px 50px 50px 50px 50px 50px 50px;
-  grid-template-rows: repeat(7, 50px);
+  -ms-grid-rows: 50px 50px 50px 50px 50px 50px 75px;
+  grid-template-rows: 50px 50px 50px 50px 50px 50px 75px;
   /*grid-row-gap: 4px;*/
 }
 .gridContainer .round {
@@ -8652,6 +8653,7 @@ section {
   padding-right: 10px;
   font-size: 16px;
   line-height: 16px;
+  color: white;
 }
 .gridContainer .rating {
   -ms-grid-column: 2;
@@ -8681,14 +8683,19 @@ section {
   -ms-grid-row-span: 1;
   grid-area: 7 / 1 / 7 / 5;
 }
+.gridContainer .calcButton {
+  margin-top: 25px;
+}
 .gridContainer .row0 {
   font-weight: bold;
+  color: white;
 }
 .gridContainer .row1 {
   -ms-grid-row: 1;
 }
 .gridContainer input {
   max-width: 80px;
+  background-color: #c7c7c7;
 }
 .gridContainer input[type="number"]::-webkit-outer-spin-button,
 .gridContainer input[type="number"]::-webkit-inner-spin-button {
