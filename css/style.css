@@ -8695,7 +8695,7 @@ section {
 }
 .gridContainer input {
   max-width: 80px;
-  background-color: #c7c7c7;
+  background-color: #c6c6c6;
 }
 .gridContainer input[type="number"]::-webkit-outer-spin-button,
 .gridContainer input[type="number"]::-webkit-inner-spin-button {
